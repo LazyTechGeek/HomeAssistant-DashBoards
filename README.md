@@ -26,7 +26,7 @@ Click Save
 
 
 ### ⚙️ `configuration.yaml`
-Link https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Automation%20-%20Theme%20Switch.txt
+[Link Text](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Automation%20-%20Theme%20Switch.txt)
 If you're using a monolithic YAML setup:
 - Includes theme definitions (`day`, `night`, and `day_and_night`)
 - Adds the `input_boolean` definitions needed for manual override
