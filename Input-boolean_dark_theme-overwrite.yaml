@@ -1,0 +1,7 @@
+dark_theme: 
+  name: Dark Theme 
+  icon: mdi:theme-light-dark
+
+theme_override:
+  name: Override Theme
+  icon: mdi:toggle-switch

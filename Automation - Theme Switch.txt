@@ -1,0 +1,40 @@
+alias: Theme Switch
+triggers:
+  - entity_id: input_boolean.dark_theme
+    trigger: state
+  - entity_id: sun.sun
+    to: above_horizon
+    trigger: state
+  - entity_id: sun.sun
+    to: below_horizon
+    trigger: state
+actions:
+  - choose:
+      - conditions:
+          - condition: template
+            value_template: "{{ trigger.entity_id == 'input_boolean.dark_theme' }}"
+        sequence:
+          - data:
+              name: >
+                {{ 'night' if is_state('input_boolean.dark_theme', 'on') else
+                'day' }}
+            action: frontend.set_theme
+      - conditions:
+          - condition: state
+            entity_id: input_boolean.theme_override
+            state: "off"
+          - condition: template
+            value_template: "{{ trigger.entity_id == 'sun.sun' }}"
+        sequence:
+          - variables:
+              sun_theme: |
+                {{ 'night' if is_state('sun.sun', 'below_horizon') else 'day' }}
+          - data:
+              name: "{{ sun_theme }}"
+            action: frontend.set_theme
+          - target:
+              entity_id: input_boolean.dark_theme
+            action: >-
+              input_boolean.turn_{{ 'on' if is_state('sun.sun', 'below_horizon')
+              else 'off' }}
+mode: single
