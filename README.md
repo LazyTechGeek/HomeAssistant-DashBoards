@@ -1,6 +1,6 @@
 # Home Assistant DashBoards
 
-These files are referenced in [Lazy Tech Geek's YouTube video – Home Assistant Dashboards Explained (Views, Cards, Themes) – Part 1](https://www.youtube.com/@LazyTechGeek).
+These files are referenced in [Lazy Tech Geek's YouTube video – Home Assistant Dashboards Explained (Views, Cards, Themes) – Part 1](https://youtu.be/K8HruHSJlng).
 
 ## ⚙️ Automation to switch between day and night theme
 
