@@ -1,4 +1,4 @@
-# HomeAssistant-DashBoards
+# HomeAssistant DashBoards
 HomeAssistant DashBoards
 
 # Home Assistant Theme Automation (Dark Mode, Day/Night Switching)
@@ -13,7 +13,7 @@ These files are referenced in [Lazy Tech Geek's YouTube video – Home Assistant
 
 - Auto-switch between **day** and **night** themes using the sun entity
 - Optional manual override using `input_boolean.theme_override`
-- Compatible with both **single-file** and **split YAML** configurations
+- Depending on your setup, I've included example code for both single-file and split configuration.yaml configurations
 
 ---
 
@@ -23,6 +23,18 @@ These files are referenced in [Lazy Tech Geek's YouTube video – Home Assistant
 Automation that toggles between light and dark themes:
 - Follows the sun (`sun.sun`) by default
 - Supports override with `input_boolean.theme_override` and `input_boolean.dark_theme`
+📌 How to use:
+
+Go to Settings > Automations & Scenes
+
+Click + Create Automation > choose Start with an empty automation
+
+Click the three dots (⋮) in the top right and select Edit in YAML
+
+Paste the contents of Automation - Theme Switch.txt
+
+Click Save
+
 
 ### ⚙️ `configuration.yaml`
 If you're using a monolithic YAML setup:
