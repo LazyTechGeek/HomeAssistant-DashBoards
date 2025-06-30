@@ -12,7 +12,7 @@ These files are referenced in [Lazy Tech Geek's YouTube video – Home Assistant
 
 ## 📁 Included Files
 
-### 🔄 `Automation - Theme Switch.txt`
+### 🔄 `Automation - Theme Switch.txt` [HERE]([https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Automation%20-%20Theme%20Switch.txt](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Automation%20-%20Theme%20Switch.txt))
 Automation that toggles between light and dark themes:
 - Follows the sun (`sun.sun`) by default
 - Supports override with `input_boolean.theme_override` and `input_boolean.dark_theme`
@@ -25,19 +25,18 @@ Paste the contents of Automation - Theme Switch.txt
 Click Save
 
 
-### ⚙️ `configuration.yaml`
-[Link Text](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Automation%20-%20Theme%20Switch.txt)
+### ⚙️ `configuration.yaml` [HERE](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Automation%20-%20Theme%20Switch.txt)
 If you're using a monolithic YAML setup:
 - Includes theme definitions (`day`, `night`, and `day_and_night`)
 - Adds the `input_boolean` definitions needed for manual override
 
-### 🧠 `Input-boolean_dark_theme-overwrite.yaml`
+### 🧠 `Input-boolean_dark_theme-overwrite.yaml` [HERE](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Input-boolean_dark_theme-overwrite.yaml)
 For users with a split YAML setup (`!include_dir_merge_named`):
 - Contains the two input booleans:
   - `input_boolean.dark_theme`
   - `input_boolean.theme_override`
 
-### 🎨 `themes_day_night.yaml`
+### 🎨 `themes_day_night.yaml` [HERE]([https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Input-boolean_dark_theme-overwrite.yaml](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/themes_day_night.yaml))
 For users who split their themes into a separate file:
 - Contains both **light** and **dark** theme definitions
 - Includes an optional `day_and_night` theme with dual-mode support
