@@ -1,4 +1,4 @@
-# HomeAssistant DashBoards
+# Home Assistant DashBoards
 HomeAssistant DashBoards
 
 # Home Assistant Theme Automation (Dark Mode, Day/Night Switching)
