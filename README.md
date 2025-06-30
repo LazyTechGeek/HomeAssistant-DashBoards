@@ -36,7 +36,7 @@ For users with a split YAML setup (`!include_dir_merge_named`):
   - `input_boolean.dark_theme`
   - `input_boolean.theme_override`
 
-### 🎨 `themes_day_night.yaml` [HERE](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Input-boolean_dark_theme-overwrite.yaml)
+### 🎨 `themes_day_night.yaml` [HERE](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/themes_day_night.yaml)
 For users who split their themes into a separate file:
 - Contains both **light** and **dark** theme definitions
 - Includes an optional `day_and_night` theme with dual-mode support
