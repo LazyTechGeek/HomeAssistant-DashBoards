@@ -12,7 +12,7 @@ These files are referenced in [Lazy Tech Geek's YouTube video – Home Assistant
 
 ## 📁 Included Files
 
-### 🔄 `Automation - Theme Switch.txt` [HERE]([https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Automation%20-%20Theme%20Switch.txt](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Automation%20-%20Theme%20Switch.txt))
+### 🔄 `Automation - Theme Switch.txt` [HERE](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Automation%20-%20Theme%20Switch.txt](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/Automation%20-%20Theme%20Switch.txt)
 Automation that toggles between light and dark themes:
 - Follows the sun (`sun.sun`) by default
 - Supports override with `input_boolean.theme_override` and `input_boolean.dark_theme`
