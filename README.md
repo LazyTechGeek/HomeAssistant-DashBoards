@@ -2,7 +2,7 @@
 
 These files are referenced in [Lazy Tech Geek's YouTube video – Home Assistant Dashboards Explained (Views, Cards, Themes) – Part 1](https://www.youtube.com/@LazyTechGeek).
 
-## 🌗 Automation to switch between day and night theme
+## ⚙️ Automation to switch between day and night theme
 
 - Auto-switch between **day** and **night** themes using the sun entity
 - Optional manual override using `input_boolean.theme_override`
@@ -44,7 +44,7 @@ For users who split their themes into a separate file:
 ---
 
 ## 🧠 Tip
-If you’re not seeing theme changes apply on all devices, make sure each browser or app is set to use the “Home Assistant” theme in its display settings and select mode to 'Auto' for mobile phones & tablets, 'Light' for PCs
+If you’re not seeing theme changes apply on all devices, make sure from profile > browser settings that the option “Use default theme" is selected and mode set to 'Auto' for mobile phones & tablets, or 'Light' for PCs
 
 ---
 
