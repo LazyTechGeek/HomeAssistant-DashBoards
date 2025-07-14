@@ -1,0 +1,43 @@
+type: custom:html-template-card
+title: null
+content: >
+  <div style="text-align: center; margin-top: -40px">
+    <div style="font-size: 30px; font-weight: bold;">Upcoming Buses</div>
+    <div style="font-size: 16px; font-weight: normal; margin-top: -30px;">(Rainbow Field)</div>
+    <div style="margin-top: -100px;"></div>
+  </div>
+
+  {% set time_style = "font-size: 22px; font-weight: bold; color: red;
+  margin-top: -30px;" %} {% set label_style = "font-size: 30px;" %} {% set
+  container_style = "margin-bottom: -60px;" %}
+
+  <div style="{{ container_style }}">
+    <div style="{{ label_style }}">Horsham (23)</div>
+    <div style="{{ time_style }}">{{ states('input_text.next_bus_23_horsham') }}</div>
+  </div>
+
+  <div style="{{ container_style }}">
+    <div style="{{ label_style }}">Horsham (200)</div>
+    <div style="{{ time_style }}">{{ states('input_text.next_bus_200_horsham') }}</div>
+  </div>
+
+  <div style="{{ container_style }}">
+    <div style="{{ label_style }}">Crawley (23)</div>
+    <div style="{{ time_style }}">{{ states('input_text.next_bus_23_crawley') }}</div>
+  </div>
+
+  <div style="{{ container_style }}">
+    <div style="{{ label_style }}">Gatwick (10)</div>
+    <div style="{{ time_style }}">{{ states('input_text.next_bus_10_gatwick') }}</div>
+  </div>
+
+  <div style="{{ container_style }}">
+    <div style="{{ label_style }}">Gatwick (10)</div>
+    <div style="{{ time_style }}">{{ states('input_text.next_bus_200_gatwick') }}</div>
+  </div>
+entities:
+  - input_text.next_bus_23_horsham
+  - input_text.next_bus_23_crawley
+  - input_text.next_bus_10_gatwick
+  - input_text.next_bus_200_horsham
+  - input_text.next_bus_200_gatwick
