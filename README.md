@@ -1,6 +1,6 @@
 # Home Assistant DashBoards Part 1
 
-These files are referenced in:
+These files are referenced in:  
 [Lazy Tech Geek's YouTube video – Home Assistant Dashboards Explained (Views, Cards, Themes) – Part 1](https://youtu.be/K8HruHSJlng).
 [Lazy Tech Geek's YouTube video – Home Assistant Dashboards Explained (HACS, Custom Cards & Layout Tips) – Part 2](LINK PENDING).
 
@@ -50,8 +50,8 @@ If you’re not seeing theme changes apply on all devices, make sure from profil
 
 # Part 2 Home Assistant Dashboards Explained (HACS, Custom Cards & Layout Tips) – Part 2
 
-### 📌 `Part 2 Files` [HERE]([https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/themes_day_night.yaml](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/tree/main/Part2)
-### 🚌 `Bus Time Table Files` [HERE](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/tree/main/Part2/Bus-Time-Table)
+### 📌 `Part 2 Files` 
+### 🚌 `Bus Time Table Files` 
 
 ## ☕ Support the Channel
 If you found this helpful, consider supporting Lazy Tech Geek:
