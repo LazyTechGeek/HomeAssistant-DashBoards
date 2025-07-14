@@ -1,0 +1,116 @@
+type: sections
+path: kiosk-section
+max_columns: 4
+title: Kiosk - Section
+sections:
+  - type: grid
+    cards:
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: switch.sonoff_lounge
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: switch.sonoff_kitchen
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: light.sonoff_1000dbd502
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: cover.center_curtain_curtain
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: input_boolean.guest_mode
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/workouts-section
+        entity: switch.energy_monitor_treadmill
+        icon: mdi:weight-lifter
+        name: Start Workout
+    column_span: 3
+  - type: grid
+    columns: 1
+    square: false
+    cards:
+      - type: custom:html-template-card
+        title: null
+        content: >
+          <div style="text-align: center; margin-top: -40px">
+            <div style="font-size: 30px; font-weight: bold;">Upcoming Buses</div>
+            <div style="font-size: 16px; font-weight: normal; margin-top: -30px;">(Rainbow Field)</div>
+            <div style="margin-top: -100px;"></div>
+          </div>
+
+          {% set time_style = "font-size: 22px; font-weight: bold; color: red;
+          margin-top: -30px;" %} {% set label_style = "font-size: 30px;" %} {%
+          set container_style = "margin-bottom: -60px;" %}
+
+          <div style="{{ container_style }}">
+            <div style="{{ label_style }}">Horsham (23)</div>
+            <div style="{{ time_style }}">{{ states('input_text.next_bus_23_horsham') }}</div>
+          </div>
+
+          <div style="{{ container_style }}">
+            <div style="{{ label_style }}">Horsham (200)</div>
+            <div style="{{ time_style }}">{{ states('input_text.next_bus_200_horsham') }}</div>
+          </div>
+
+          <div style="{{ container_style }}">
+            <div style="{{ label_style }}">Crawley (23)</div>
+            <div style="{{ time_style }}">{{ states('input_text.next_bus_23_crawley') }}</div>
+          </div>
+
+          <div style="{{ container_style }}">
+            <div style="{{ label_style }}">Gatwick (10)</div>
+            <div style="{{ time_style }}">{{ states('input_text.next_bus_10_gatwick') }}</div>
+          </div>
+
+          <div style="{{ container_style }}">
+            <div style="{{ label_style }}">Gatwick (10)</div>
+            <div style="{{ time_style }}">{{ states('input_text.next_bus_200_gatwick') }}</div>
+          </div>
+        entities:
+          - input_text.next_bus_23_horsham
+          - input_text.next_bus_23_crawley
+          - input_text.next_bus_10_gatwick
+          - input_text.next_bus_200_horsham
+          - input_text.next_bus_200_gatwick
+      - type: custom:clock-weather-card
+        entity: weather.home
+      - show_state: false
+        show_name: true
+        camera_view: live
+        fit_mode: cover
+        type: picture-entity
+        entity: camera.front_door
+        name: Front Door
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace/Cam-door-v2-section
+    column_span: 4
+visible:
+  - user: 6d8786a265af45ef82a5a2fb27efc603
+  - user: 69a4fb23e80c429f8bf0536c57e92c61
+  - user: 4f2e64e812234fe18a1108de5a7e0907
+  - user: 156da8844e68468e8d1f9cf6d4e0fe37
+  - user: ff092edad99a443c8d97273c62a43bbf
+  - user: 41db4e9b54914153ae7b73da70f88747
+cards: []
+badges: []
