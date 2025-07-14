@@ -50,9 +50,6 @@ If you’re not seeing theme changes apply on all devices, make sure from profil
 
 # Part 2 Home Assistant Dashboards Explained (HACS, Custom Cards & Layout Tips) – Part 2
 
-### 📌 `Part 2 Files` 
-### 🚌 `Bus Time Table Files` 
-
 ### 📌 `Part 2 Files` [HERE](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/tree/main/Part2)  
 ### 🚌 `Bus Time Table Files` [HERE](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/tree/main/Part2/Bus-Time-Table)
 
