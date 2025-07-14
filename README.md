@@ -53,6 +53,9 @@ If you’re not seeing theme changes apply on all devices, make sure from profil
 ### 📌 `Part 2 Files` 
 ### 🚌 `Bus Time Table Files` 
 
+### 📌 `Part 2 Files` [HERE](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/tree/main/Part2)  
+### 🚌 `Bus Time Table Files` [HERE](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/tree/main/Part2/Bus-Time-Table)
+
 ## ☕ Support the Channel
 If you found this helpful, consider supporting Lazy Tech Geek:
 [Buy Me a Coffee ☕](https://buymeacoffee.com/lazytechgeek)
