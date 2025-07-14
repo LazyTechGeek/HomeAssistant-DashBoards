@@ -1,7 +1,7 @@
-# Home Assistant DashBoards Part 1
+# Home Assistant Dashboards Explained (Views, Cards, Themes) – Part 1
 
 These files are referenced in:  
-[Lazy Tech Geek's YouTube video – Home Assistant Dashboards Explained (Views, Cards, Themes) – Part 1](https://youtu.be/K8HruHSJlng).
+[Lazy Tech Geek's YouTube video – Home Assistant Dashboards Explained (Views, Cards, Themes) – Part 1](https://youtu.be/K8HruHSJlng).  
 [Lazy Tech Geek's YouTube video – Home Assistant Dashboards Explained (HACS, Custom Cards & Layout Tips) – Part 2](LINK PENDING).
 
 ## ⚙️ Automation to switch between day and night theme
