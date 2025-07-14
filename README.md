@@ -1,6 +1,8 @@
-# Home Assistant DashBoards
+# Home Assistant DashBoards Part 1
 
-These files are referenced in [Lazy Tech Geek's YouTube video – Home Assistant Dashboards Explained (Views, Cards, Themes) – Part 1](https://youtu.be/K8HruHSJlng).
+These files are referenced in:
+[Lazy Tech Geek's YouTube video – Home Assistant Dashboards Explained (Views, Cards, Themes) – Part 1](https://youtu.be/K8HruHSJlng).
+[Lazy Tech Geek's YouTube video – Home Assistant Dashboards Explained (HACS, Custom Cards & Layout Tips) – Part 2](LINK PENDING).
 
 ## ⚙️ Automation to switch between day and night theme
 
@@ -46,7 +48,10 @@ For users who split their themes into a separate file:
 ## 🧠 Tip
 If you’re not seeing theme changes apply on all devices, make sure from profile > browser settings that the option “Use default theme" is selected and mode set to 'Auto' for mobile phones & tablets, or 'Light' for PCs
 
----
+# Part 2 Home Assistant Dashboards Explained (HACS, Custom Cards & Layout Tips) – Part 2
+
+### 📌 `Part 2 Files` [HERE]([https://github.com/LazyTechGeek/HomeAssistant-DashBoards/blob/main/themes_day_night.yaml](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/tree/main/Part2)
+### 🚌 `Bus Time Table Files` [HERE](https://github.com/LazyTechGeek/HomeAssistant-DashBoards/tree/main/Part2/Bus-Time-Table)
 
 ## ☕ Support the Channel
 If you found this helpful, consider supporting Lazy Tech Geek:
