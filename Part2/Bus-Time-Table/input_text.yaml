@@ -1,0 +1,30 @@
+input_text
+  next_bus_10_gatwick:
+    name: Next Bus 10 (Gatwick)
+    max: 20
+    mode: text
+    initial: ""
+  
+  next_bus_23_horsham:
+    name: Next Bus 23 (Horsham)
+    max: 20
+    mode: text
+    initial: ""
+  
+  next_bus_23_crawley:
+    name: Next Bus 23 (Crawley)
+    max: 20
+    mode: text
+    initial: ""
+  
+  next_bus_200_horsham:
+    name: Next Bus 200 (Horsham)
+    max: 20
+    mode: text
+    initial: ""
+  
+  next_bus_200_gatwick:
+    name: Next Bus 200 (Gatwick)
+    max: 20  
+    mode: text
+    initial: ""
